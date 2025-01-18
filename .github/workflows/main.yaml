@@ -17,6 +17,6 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    uses: mitzenjeremywoo/github-devops-template/.github/workflows/dotnet-build.yml@main
+    uses: mitzenjeremywoo/github-devops-template/.github/workflows/dotnet-build.yaml@main
     with: 
       project: "mytest"
